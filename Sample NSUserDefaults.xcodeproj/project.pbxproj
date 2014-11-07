@@ -21,6 +21,8 @@
 		2F0FA46C19B5827C0019229D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0FA44E19B5827C0019229D /* UIKit.framework */; };
 		2F0FA47419B5827C0019229D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FA47219B5827C0019229D /* InfoPlist.strings */; };
 		2F0FA47619B5827C0019229D /* Sample_NSUserDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FA47519B5827C0019229D /* Sample_NSUserDefaultsTests.m */; };
+		2F0FA4C319B59D3D0019229D /* User2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FA4C119B59D3D0019229D /* User2ViewController.m */; };
+		2F0FA4C419B59D3D0019229D /* User2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0FA4C219B59D3D0019229D /* User2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		2F0FA47119B5827C0019229D /* Sample NSUserDefaultsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample NSUserDefaultsTests-Info.plist"; sourceTree = "<group>"; };
 		2F0FA47319B5827C0019229D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F0FA47519B5827C0019229D /* Sample_NSUserDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_NSUserDefaultsTests.m; sourceTree = "<group>"; };
+		2F0FA4C019B59D3D0019229D /* User2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User2ViewController.h; sourceTree = "<group>"; };
+		2F0FA4C119B59D3D0019229D /* User2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User2ViewController.m; sourceTree = "<group>"; };
+		2F0FA4C219B59D3D0019229D /* User2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = User2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				2F0FA45919B5827C0019229D /* UserAppDelegate.h */,
 				2F0FA45A19B5827C0019229D /* UserAppDelegate.m */,
 				2F0FA45C19B5827C0019229D /* Main.storyboard */,
+				2F0FA4C019B59D3D0019229D /* User2ViewController.h */,
+				2F0FA4C119B59D3D0019229D /* User2ViewController.m */,
+				2F0FA4C219B59D3D0019229D /* User2ViewController.xib */,
 				2F0FA45F19B5827C0019229D /* UserViewController.h */,
 				2F0FA46019B5827C0019229D /* UserViewController.m */,
 				2F0FA46219B5827C0019229D /* Images.xcassets */,
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0FA4C419B59D3D0019229D /* User2ViewController.xib in Resources */,
 				2F0FA46319B5827C0019229D /* Images.xcassets in Resources */,
 				2F0FA45519B5827C0019229D /* InfoPlist.strings in Resources */,
 				2F0FA45E19B5827C0019229D /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0FA4C319B59D3D0019229D /* User2ViewController.m in Sources */,
 				2F0FA46119B5827C0019229D /* UserViewController.m in Sources */,
 				2F0FA45719B5827C0019229D /* main.m in Sources */,
 				2F0FA45B19B5827C0019229D /* UserAppDelegate.m in Sources */,
@@ -457,6 +467,7 @@
 				2F0FA47B19B5827C0019229D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F0FA47C19B5827C0019229D /* Build configuration list for PBXNativeTarget "Sample NSUserDefaultsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				2F0FA47E19B5827C0019229D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UserViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *myText;
+@property (strong, nonatomic) IBOutlet UITextField *passwordText;
 
+- (IBAction)donePressed:(id)sender;
 @end
